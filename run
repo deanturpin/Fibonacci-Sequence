@@ -2,5 +2,9 @@
 
 for file in *_*; do
 
-	echo $file
+	if [[ $(./$file) == 121 ]]; then
+		echo -e $file\\tpass
+	else
+		echo -e ${file#*_}\\t fail
+	fi
 done
