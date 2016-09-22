@@ -1,9 +1,12 @@
-all: fibonacci_cpp fibonacci_c
+all: _cpp.o _c.o
 
 # C++
-fibonacci_cpp: fibonacci.cpp
+_cpp.o: cpp.cpp
 	clang++ -Weverything -Wno-c++98-compat -std=c++1y -o $@ $<
 
 # C
-fibonacci_c: fibonacci.c
+_c.o: c.c
 	clang -Weverything -o $@ $<
+
+clean:
+	rm -f *.o

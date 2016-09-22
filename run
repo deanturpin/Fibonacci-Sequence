@@ -1,10 +1,14 @@
 #!/bin/bash
 
-for file in *_*; do
+# Build everything that needs building
+make -j
 
-	if [[ $(./$file) == 121 ]]; then
+# Every thing that runs starts with an underscore
+for file in _*; do
+
+	if [[ $(./$file) == 120 ]]; then
 		echo -e $file\\tpass
 	else
-		echo -e ${file#*_}\\t fail
+		echo -e $file\\tfail
 	fi
 done
