@@ -6,7 +6,6 @@ fibonacci.o: fibonacci.c
 clean:
 	rm -f *.o
 
-.PHONY: run
 run:
 	./fibonacci.o
 	./fibonacci.sh
