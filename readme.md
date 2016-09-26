@@ -1,4 +1,4 @@
-The ![Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) implemented in various languages:
+The [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) implemented in various languages:
 - C
 - Bash
 - Haskell
