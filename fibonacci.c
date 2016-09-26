@@ -5,7 +5,7 @@ unsigned int fibonacci(const unsigned int);
 int main()
 {
 
-	printf("%d\n", fibonacci(45ul));
+	printf("%d\n", fibonacci(30ul));
 
 	return 0l;
 }

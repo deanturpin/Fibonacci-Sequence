@@ -3,15 +3,15 @@
 # Build everything that needs building
 make -j
 
-fib=1134903170
-echo Fibonacci 45 is $fib
+fib=832040
 
 # Run every object and script
-for file in *.{o,sh,hs}; do
+for file in *.{o,sh,hs,js}; do
 
-	# Prepend the Haskell interpreter if necessary
+	# Prepend the correct interpreter if necessary
 	interpreter=''
 	[[ $file =~ hs ]] && interpreter=runhaskell
+	[[ $file =~ js ]] && interpreter=node
 
 	# Run each script/object
 	if [[ $(time $interpreter ./$file) == $fib ]]; then
