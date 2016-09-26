@@ -2,17 +2,17 @@
 
 unsigned int fibonacci(const unsigned int);
 
-int main() {
+int main()
+{
 
-	printf("%d\n", fibonacci(45));
+	printf("%d\n", fibonacci(45ul));
 
-	return 0;
+	return 0l;
 }
 
-unsigned int fibonacci(const unsigned int n) {
+unsigned int fibonacci(const unsigned int n)
+{
 
-	return (
-		n == 0 ? 0 :
-		n == 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2)
-	);
+	return ( n == 0ul ? 0ul :
+		 n == 1ul ? 1ul : fibonacci( n - 1ul ) + fibonacci( n - 2ul ) );
 }
