@@ -11,8 +11,10 @@ int main() {
 
 unsigned int fibonacci(const unsigned int n) {
 
-	if (n == 1)
-		return 1;
-
-	return n * fibonacci(n - 1);
+	return (
+		n == 0 ? 0 :
+		n == 1 ? 1 :
+		n == 2 ? 2 : 
+		n * fibonacci(n - 1)
+	);
 }
