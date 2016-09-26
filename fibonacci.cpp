@@ -4,7 +4,7 @@ unsigned int fibonacci(const unsigned int);
 
 int main() {
 
-	std::cout << fibonacci(45) << std::endl;
+	std::cout << fibonacci(20) << std::endl;
 
 	return 0;
 }

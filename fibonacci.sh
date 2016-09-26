@@ -2,15 +2,13 @@ function fibonacci {
 
 	local n=$1
 
-	if [[ $n == 1 ]]; then
+	[[ $n == 0 ]] && echo $n && return
+	[[ $n == 1 ]] && echo $n && return
 	
-		echo $n
-	else
+	local x=$(fibonacci $((n - 1)));
+	local y=$(fibonacci $((n - 2)));
 
-		local m=$(fibonacci $((n - 1)))
-
-		echo $((m * n))
-	fi
+	echo $((x + y))
 }
 
 fibonacci 20 
