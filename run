@@ -3,10 +3,13 @@
 # Build everything that needs building
 make -j
 
-# Every thing that runs starts with an underscore
-for file in _*; do
+fib=1134903170
+echo Fibonacci 45 is $fib
 
-	if [[ $(./$file) == 120 ]]; then
+# Run every object and script
+for file in *.{o,sh}; do
+
+	if [[ $(time ./$file) == $fib ]]; then
 		echo -e $file\\tpass
 	else
 		echo -e $file\\tfail

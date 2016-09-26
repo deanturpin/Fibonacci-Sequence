@@ -13,4 +13,4 @@ function fibonacci {
 	fi
 }
 
-fibonacci 5
+fibonacci 20 
