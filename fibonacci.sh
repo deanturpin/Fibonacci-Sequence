@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function fibonacci {
 
 	local n=$1
