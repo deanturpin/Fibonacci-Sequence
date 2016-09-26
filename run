@@ -7,9 +7,14 @@ fib=1134903170
 echo Fibonacci 45 is $fib
 
 # Run every object and script
-for file in *.{o,sh}; do
+for file in *.{o,sh,hs}; do
 
-	if [[ $(time ./$file) == $fib ]]; then
+	# Prepend the Haskell interpreter if necessary
+	interpreter=''
+	[[ $file =~ hs ]] && interpreter=runhaskell
+
+	# Run each script/object
+	if [[ $(time $interpreter ./$file) == $fib ]]; then
 		echo -e $file\\tpass
 	else
 		echo -e $file\\tfail

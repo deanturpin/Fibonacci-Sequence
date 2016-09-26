@@ -4,7 +4,7 @@ unsigned int fibonacci(const unsigned int);
 
 int main() {
 
-	printf("%d\n", fibonacci(20));
+	printf("%d\n", fibonacci(45));
 
 	return 0;
 }

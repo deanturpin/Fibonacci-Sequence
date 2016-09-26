@@ -11,4 +11,4 @@ function fibonacci {
 	echo $((x + y))
 }
 
-fibonacci 20 
+fibonacci 10 

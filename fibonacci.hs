@@ -4,4 +4,4 @@ fibonacci 1 = 1
 fibonacci n = fibonacci(n - 1) + fibonacci(n - 2)
 
 main = do
-    print(fibonacci(20))
+    print(fibonacci(10))
