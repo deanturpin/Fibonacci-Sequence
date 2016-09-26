@@ -1,6 +1,10 @@
 https://en.wikipedia.org/wiki/Fibonacci_number
 
-The Fibonacci sequence implemented in various languages.
+The Fibonacci sequence implemented in various languages:
+- C
+- C++
+- Bash
+- Haskell
 
 ```bash
 $ ./run 
