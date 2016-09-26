@@ -1,8 +1,5 @@
-https://en.wikipedia.org/wiki/Fibonacci_number
-
-The Fibonacci sequence implemented in various languages:
+The ![Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) implemented in various languages:
 - C
-- C++
 - Bash
 - Haskell
 
@@ -10,11 +7,6 @@ The Fibonacci sequence implemented in various languages:
 $ ./run 
 make: Nothing to be done for 'all'.
 Fibonacci 45 is 1134903170
-
-real	0m15.086s
-user	0m15.084s
-sys	0m0.000s
-fibonacci_cpp.o	pass
 
 real	0m18.053s
 user	0m18.016s
