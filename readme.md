@@ -8,6 +8,8 @@ The [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) impleme
 $ make clean
 rm -f *.o
 ```
+
+```make``` builds and runs everything.
 ```bash
 $ make
 clang -Weverything -o fibonacci.o fibonacci.c
