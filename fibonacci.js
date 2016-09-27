@@ -7,20 +7,9 @@ function fibonacci(n) {
 	)
 }
 
-console.log(
-	fibonacci(0),
-	fibonacci(1),
-	fibonacci(2),
-	fibonacci(3),
-	fibonacci(4),
-	fibonacci(5),
-	fibonacci(6),
-	fibonacci(7),
-	fibonacci(8),
-	fibonacci(9),
-	fibonacci(10),
-	fibonacci(11),
-	fibonacci(12),
-	fibonacci(13),
-	fibonacci(14)
-)
+var sequence = ""
+
+for (var i = 0; i <= 14; ++i)
+	sequence += fibonacci(i) + " "
+
+console.log(sequence)
