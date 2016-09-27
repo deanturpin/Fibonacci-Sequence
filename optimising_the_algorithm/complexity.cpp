@@ -1,8 +1,6 @@
 #include <iostream>
 #include <iomanip>
 
-const unsigned int seq = 30;
-
 namespace bigo {
 
 	using namespace std;
@@ -25,15 +23,16 @@ namespace bigo {
 
 	void generateSequence();
 	void generateSequence() {
+	
+		for (unsigned int i = 0; i < 40; ++i)
+			cout << i << ",";
 
-		cout << "\nImplementation 1" << endl;
+		cout << endl;
 
-		string s;
-		for (unsigned int i = 0; i <= seq; ++i)
-			s += to_string(bigo::fibonacci(i)) + ' ';
+		for (unsigned int i = 0; i < 40; ++i)
+			cout << fibonacci(i) << ",";
 
-		cout << s << endl;
-		cout << "Calls " << callCount << endl;
+		cout << endl;
 	}
 }
 
