@@ -1,9 +1,10 @@
-The [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number)
+[Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) generator
 implemented in multiple languages:
+- C++
 - C
-- Bash
 - Haskell
 - Node.js
+- Bash
 
 ### Build and run
 ```bash
@@ -14,21 +15,16 @@ rm -f *.o
 ```make``` builds and runs everything.
 ```bash
 $ make
-clang -Weverything -o fibonacci.o fibonacci.c
-./fibonacci.o
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
 55
-./fibonacci.sh
-55
-node fibonacci.js
-55
-runhaskell fibonacci.hs
-55
-
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
 ```
+
 ### Dependencies
 ```
 clang
 nodejs
 ghc # Haskell
 ```
-
