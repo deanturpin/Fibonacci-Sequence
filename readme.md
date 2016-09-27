@@ -5,13 +5,7 @@ implemented in multiple languages:
 - Haskell
 - Node.js
 
-### Dependencies
-```
-clang
-nodejs
-ghc # Haskell
-```
-
+### Build and run
 ```bash
 $ make clean
 rm -f *.o
@@ -29,4 +23,12 @@ node fibonacci.js
 55
 runhaskell fibonacci.hs
 55
+
 ```
+### Dependencies
+```
+clang
+nodejs
+ghc # Haskell
+```
+
