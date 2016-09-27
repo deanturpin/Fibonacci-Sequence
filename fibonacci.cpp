@@ -19,7 +19,7 @@ int main() {
 	using namespace std;
 
 	string s;
-	for (unsigned int i = 0; i <= 20; ++i)
+	for (unsigned int i = 0; i <= 12; ++i)
 		s += to_string(fibonacci(i)) + ' ';
 
 	cout << s << endl;
