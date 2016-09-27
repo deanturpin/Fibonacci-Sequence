@@ -18,6 +18,6 @@ clean:
 run:
 	./fibonacci.o
 	./fibonacci_cpp.o
-	./fibonacci.sh
 	node fibonacci.js
 	runhaskell fibonacci.hs
+	./fibonacci.sh

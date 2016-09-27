@@ -13,7 +13,7 @@ function fibonacci {
 	echo $((x + y))
 }
 
-for i in {0..12}; do
+for i in {0..14}; do
 	echo -n "$(fibonacci $i) "
 done
 
