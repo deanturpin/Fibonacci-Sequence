@@ -8,7 +8,7 @@ fibonacci.o: fibonacci.c
 	clang -Weverything -o $@ $<
 
 fibonacci_cpp.o: fibonacci.cpp
-	clang++ -Weverything -o $@ $<
+	clang++ -Weverything -std=c++1y -o $@ $<
 
 clean:
 	rm -f *.o
