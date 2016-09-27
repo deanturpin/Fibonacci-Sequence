@@ -5,6 +5,13 @@ implemented in multiple languages:
 - Haskell
 - Node.js
 
+### Dependencies
+```
+clang
+nodejs
+ghc # Haskell
+```
+
 ```bash
 $ make clean
 rm -f *.o
