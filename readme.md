@@ -1,6 +1,5 @@
 [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) generator
 implemented in multiple languages:
-- C++
 - C
 - Haskell
 - Node.js
