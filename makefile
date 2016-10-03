@@ -1,14 +1,11 @@
 .SILENT:
 
-all: fibonacci.o fibonacci_cpp.o run
+all: fibonacci.o run
 
 # Build rules
 
 fibonacci.o: fibonacci.c
 	clang -Weverything -o $@ $<
-
-fibonacci_cpp.o: fibonacci.cpp
-	clang++ -Weverything -o $@ $<
 
 clean:
 	rm -f *.o
@@ -17,7 +14,6 @@ clean:
 
 run:
 	./fibonacci.o
-	./fibonacci_cpp.o
 	node fibonacci.js
 	runhaskell fibonacci.hs
 	./fibonacci.sh

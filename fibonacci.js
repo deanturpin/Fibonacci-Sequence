@@ -7,9 +7,4 @@ function fibonacci(n) {
 	)
 }
 
-var sequence = ""
-
-for (var i = 0; i <= 14; ++i)
-	sequence += fibonacci(i) + " "
-
-console.log(sequence)
+console.log(fibonacci(14))
