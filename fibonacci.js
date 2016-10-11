@@ -7,4 +7,4 @@ function fibonacci(n) {
 	)
 }
 
-console.log(fibonacci(14))
+console.log("js\t" + fibonacci(14))

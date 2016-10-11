@@ -11,4 +11,4 @@ function fibonacci(n)
 
 end
 
-print(fibonacci(14))
+print("lua", fibonacci(14))

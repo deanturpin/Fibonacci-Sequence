@@ -13,4 +13,4 @@ function fibonacci {
 	echo $((x + y))
 }
 
-fibonacci 14
+echo -e bash\\t$(fibonacci 14)
