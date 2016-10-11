@@ -15,10 +15,6 @@ rm -f *.o
 ```make``` builds and runs everything.
 ```bash
 $ make
-377
-377
-377
-377
 ```
 
 ### Dependencies
