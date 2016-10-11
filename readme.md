@@ -4,6 +4,7 @@ implemented in multiple languages:
 - Haskell
 - Node.js
 - Bash
+- Lua
 
 ### Build and run
 ```bash
@@ -24,5 +25,6 @@ $ make
 ```
 clang
 nodejs
-ghc # Haskell
+ghc
+lua5.3
 ```
