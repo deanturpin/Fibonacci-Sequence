@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 function fibonacci(n) {
 
 	return (

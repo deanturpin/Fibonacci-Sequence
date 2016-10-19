@@ -13,7 +13,7 @@ clean:
 # Run rules
 run:
 	./fibonacci.o
-	node fibonacci.js
-	runhaskell fibonacci.hs
+	./fibonacci.js
+	./fibonacci.hs
 	./fibonacci.sh
 	./fibonacci.lua

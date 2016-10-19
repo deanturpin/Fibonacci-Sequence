@@ -1,3 +1,5 @@
+#!/usr/bin/runhaskell
+
 fibonacci :: Int -> Int
 fibonacci 0 = 0
 fibonacci 1 = 1
