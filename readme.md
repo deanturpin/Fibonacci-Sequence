@@ -19,7 +19,7 @@ make
 C	377
 js	377
 hs	377
-bash	377
+sh	377
 lua	377
 ```
 
